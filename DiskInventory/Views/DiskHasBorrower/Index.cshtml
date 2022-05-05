@@ -33,7 +33,7 @@
                 <td>@diskhasborrower.BorrowedDate?.ToString("dd MMM yyyy")</td>
                 <td>@diskhasborrower.ReturnedDate?.ToString("dd MMM yyyy")</td>
                 <td>
-                    <a asp-controller="DiskHasBorrower" asp-action="Edit" asp-route-id="@diskhasborrower.DiskId">Edit</a>
+                    <a asp-controller="DiskHasBorrower" asp-action="Edit" asp-route-id="@diskhasborrower.DiskHasBorrowerId">Edit</a>
                 </td>
             </tr>
         }
